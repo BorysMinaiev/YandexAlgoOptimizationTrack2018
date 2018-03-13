@@ -18,7 +18,9 @@ java Vizualizator ../test.in ../test.out
 
 And with Left and Right arrow keys you can see solution.
 
-Also you can create new random testcase:
+![Vizualization](images/screen.png?raw=true "Screenshot")
+
+Also you can create a new random testcase:
 ```
 cd src
 javac TestGen.java
