@@ -71,18 +71,11 @@ public class TestGen {
     }
 
     void run() {
-        try {
-//            in = new FastScanner(new File("TestGen.in"));
-            for (int t = 1; t <= 300; t++) {
-                out = new PrintWriter(new File("tests/" + t + ".in"));
+        out = new PrintWriter(System.out);
 
-                solve();
+        solve();
 
-                out.close();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        out.close();
     }
 
     void runIO() {
